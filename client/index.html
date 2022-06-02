@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <header>
+    <h1>Get a compliment or Fortune Cookie</h1>
+  </header>
+
+     <body class="container">
+      <section id="button-container">
+        <button id="complimentButton">Get a compliment</button>
+        <button id="fortuneCookieButton">Fortune Cookie</button>
+      </section>
+
+       <h3>Inspirational Figure</h3>
+       <main>
+        <form>
+          <input 
+              type="text"
+              id="figure"
+              placeholder="Who inspires you?"/>
+          <input 
+              type="text"
+              id="img"
+              placeholder="Paste an image URL"/>
+          <section id="ratings-container">
+              <p>Rate your figure:</p>
+                <div id="radio-container">
+                  <label for="one">
+                    <input
+                      type="radio"
+                      name="ratings"
+                      value="1"
+                      id="one"/>
+                      1
+                  </label>
+                    <label for="two">
+                       <input
+                        type="radio"
+                        name="ratings"
+                        value="2"
+                        id="two"/>
+                        2
+                    </label>
+                    <label for="three">
+                      <input
+                        type="radio"
+                        name="ratings"
+                        value="3"
+                        id="three"/>
+                        3
+                    </label>
+                    <label for="four">
+                      <input
+                        type="radio"
+                        name="ratings"
+                        value="4"
+                        id="four"/>
+                        4
+                    </label>
+                    <label for="five">
+                      <input
+                        type="radio"
+                        name="ratings"
+                        value="5"
+                        id="five"/>
+                        5
+                    </label>
+                </div>
+            </section>
+            <button>add figure</button>
+     </form>
+
+     <section id="figures-container"></section>
+   
+    </main>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

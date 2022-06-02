@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "figure": "Mahatma Ghandi",
+        "rating": 5,
+        "imageURL": "https://cdn.britannica.com/91/82291-050-EB7A276A/Mohandas-K-Gandhi-leader-Mahatma-Indian.jpg"
+    },
+    {
+        "id": 2,
+        "figure": "Nelson Mandela",
+        "rating": 4,
+        "imageURL": "https://api.time.com/wp-content/uploads/2020/07/nelson-mandela.jpg?quality=85&w=1600"
+    }
+]
